@@ -17,5 +17,6 @@ Contents
 
 .. toctree::
 
+   VideoX_v3_Enterprise
    usage
    api
