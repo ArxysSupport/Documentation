@@ -3,6 +3,6 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "lumache"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
+name = "Arxys Video X v3 Documentation"
+authors = [{name = "Arxys Support Team", email = "support@arxys.com"}]
 dynamic = ["version", "description"]
