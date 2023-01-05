@@ -7,7 +7,7 @@ Arxys solves complex industry application challenges by leveraging a deep unders
 
 .. note::
 
-   Documentation is under active development and is frequently updated.
+   Documentation is frequently updated.
 
 Contents
 --------
