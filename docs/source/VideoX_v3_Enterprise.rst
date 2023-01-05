@@ -3,7 +3,7 @@ Arxys Video X v3 Enterprise
 
 .. _installation:
 
-Installation
+Quick Installation Guide
 ------------
 
 To use Lumache, first install it using pip:
