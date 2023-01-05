@@ -13,6 +13,10 @@ Quick Installation Guide
 #. Install the Rackmount Kit on the Chassis
 	A rackmount rail kit is included with VideoX v3 Enterprise Appliance. Refer to the documentation shipped inside the rackmount rail kit box.
 
+.. image:: images/VideoXv3EntBack.png
+  :width: 800
+  :alt: VideoXv3EntBack
+
 #. Cabling VideoX v3 Enterprise 
 	The VideoX v3 Enterprise Appliance requires two 110-240 VAC power sources. Connect both power cords. Connect a display to the VGA port. Connect a keyboard and mouse to any available USB port. Plug in at least one ethernet cable into an ethernet port of the VideoX v3 Enterprise. A network cable should also be connected to the management (BMC/IPMI) port for later usage.
 	
@@ -23,12 +27,11 @@ Quick Installation Guide
 	To turn on the VideoX v3 Enterprise Appliance, press the power button located on the front-left of the VideoX V3 Enterprise. The system will power on. During this time, the hard drive activity LEDs on the VideoX v3 Enterprise Appliance will blink. Allow the VideoX v3 Enterprise Appliance to boot into the Windows® 2019 Server operating system.
 	
 #. Windows® Operating System Setup
-	
 	Once the VideoX V3 Enterprise completely boots, follow the onscreen instructions to complete the license and activation of Windows® 2019 Server
 		#. Select the correct country/region, time and currency, and keyboard layout that are appropriate. Click Next to continue
 		#. Type in the product key found on the Microsoft® COA label located on the front left corner of the appliance. Scratch off the protective/privacy silver coating to reveal the entire product key. Click Next. 
 		#. Review and accept the Microsoft® Software License Terms and click Accept. 
-		#. Follow the instructions to set the administrative password for the appliance. Please note that the appliance ships without an administrative password. The password set here will create the only set of credentials that can be used to log into the appliance. Arxys is unable to reset this account.
+		#. Follow the instructions to set the administrative password for the appliance. Please note that the appliance ships without an administrative password. The password set here will create the only set of credentials that can be used to log into the appliance. **Arxys is unable to reset this account.**
 
 #. Logging into the VideoX V3 Enterprise Appliance
 	Follow the onscreen instructions to log in using the password set in step 6.4
