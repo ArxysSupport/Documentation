@@ -23,6 +23,7 @@ Quick Installation Guide
 	To turn on the VideoX v3 Enterprise Appliance, press the power button located on the front-left of the VideoX V3 Enterprise. The system will power on. During this time, the hard drive activity LEDs on the VideoX v3 Enterprise Appliance will blink. Allow the VideoX v3 Enterprise Appliance to boot into the Windows® 2019 Server operating system.
 	
 #. Windows® Operating System Setup
+	
 	Once the VideoX V3 Enterprise completely boots, follow the onscreen instructions to complete the license and activation of Windows® 2019 Server
 		#. Select the correct country/region, time and currency, and keyboard layout that are appropriate. Click Next to continue
 		#. Type in the product key found on the Microsoft® COA label located on the front left corner of the appliance. Scratch off the protective/privacy silver coating to reveal the entire product key. Click Next. 
@@ -38,26 +39,15 @@ Quick Installation Guide
 #. Windows® Operating System Updates and Patches
 	The VideoX V3 Enterprise Appliance ships with the Windows® Server 2019 operating system. Microsoft® routinely release updates and patches to improve stability and security. Any updates released after the VideoX V3 Enterprise has shipped will need to be applied. Consult with you system administrator to verify the best way to install these updates.
 
-.. code-block:: console
-
-   (.venv) $ pip install lumache
-
-Creating recipes
+Topic 2
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Topic 3
+----------------
 
-.. autofunction:: lumache.get_random_ingredients
+Topic 4
+----------------
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+Topic 5
+----------------
 
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
